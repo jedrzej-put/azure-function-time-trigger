@@ -1,0 +1,20 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 * */12 * * *",
+      "runOnStartup": true,
+      "useMonitor": false
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "name": "outqueue",
+      "queueName": "parkingqueue",
+      "connection": "AzureStorageQueuesConnectionString"
+    }
+  ]
+}
