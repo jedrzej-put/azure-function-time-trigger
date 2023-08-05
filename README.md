@@ -1,9 +1,10 @@
 # Loading Wrocław data into SQL DB using Databricks and Queue Storage
-<img src="https://github.com/jedrzej-put/azure-function-time-trigger/blob/main/schema.jpg" width="800" height="600"  title="Sample Input Image">
+<img src="https://github.com/jedrzej-put/azure-function-time-trigger/blob/main/schema.jpg" width="400" height="300"  title="Sample Input Image">
+
 ## AF functionality:​
 - Get data from open API:​
-  https://www.wroclaw.pl/open-data/​
-  http://powietrze.gios.gov.pl/pjp/content/api​
+- https://www.wroclaw.pl/open-data/​
+- http://powietrze.gios.gov.pl/pjp/content/api​
 - Create containers in Data Lake if not exist​
 - Create queues in Queue Storage if not exist​
 - Save data as string on Data Lake​
