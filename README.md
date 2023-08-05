@@ -1,5 +1,5 @@
 # Loading Wrocław data into SQL DB using Databricks and Queue Storage
-<img src="https://github.com/jedrzej-put/azure-function-time-trigger/blob/main/schema.jpg" width="400" height="300"  title="Sample Input Image">
+<img src="https://github.com/jedrzej-put/azure-function-time-trigger/blob/main/schema.jpg" width="800" height="250"  title="Sample Input Image">
 
 ## AF functionality:​
 - Get data from open API:​
